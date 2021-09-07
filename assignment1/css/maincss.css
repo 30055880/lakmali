@@ -1,0 +1,118 @@
+ body 
+  {
+  font-family: sans-serif;
+  padding: 3%;
+  background-color: rgb(213, 231, 247);
+  }
+h1 {
+     color:rgb(25, 15, 119);
+     font-size: 35px;
+   }
+h2 {
+   color: rgb(12, 124, 115);
+   font-size: 28px;
+   text-align: center;
+   }
+h3 {
+    color: rgb(13, 76, 134);
+    font-size-adjust: 25px;
+    }
+h4 {
+      color: rgb(61, 109, 22);
+      font-size-adjust: 20px;
+  }
+  @media screen and (max-width: 600px)
+  {
+       .column
+       {
+         width: 100%;
+       }
+  }
+  /* Style the header */
+  .header {
+    background-color: #6ab7eb;
+    text-align: center;
+    padding: 20px;
+  }  
+ p {
+   font-family: Arial, Helvetica, sans-serif;
+ }  
+ /*style the form*/
+   input {
+   width:50%
+  }
+   textarea {
+  width: 50%;
+   }
+   input[type=submit]:hover {
+    background-color: #45a049;
+  }
+ 
+  .topnav
+   {
+   font-size: 0.95rem;
+   }
+   
+  .topnav ul 
+    {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(18, 19, 70);
+    }
+   
+  .topnav li 
+   {
+    float: left;
+    width: auto;
+    border-right: 1px solid #bbb;
+   }
+  
+  .topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+  
+    /* Change the link color to #111 (black) on hover */
+     .topnav li a:hover {
+     background-color: rgb(34, 52, 87);
+     }
+
+    .footer
+    {
+    font-size: 0.75rem;
+     }
+  
+    .footer ul 
+     {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(89, 83, 117);
+      }
+    
+    .footer li 
+      {
+      float: left;
+      width: 16.66%;
+      }
+    
+     .footer li a 
+     { 
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+      }
+    
+  /* Change the link color to #111 (black) on hover */
+  .footer li a:hover 
+   {
+    background-color: rgb(49, 84, 104);
+   }
